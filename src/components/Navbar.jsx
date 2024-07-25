@@ -1,8 +1,9 @@
 import logo from "/logoo.png";
 
 const Navbar = () => {
+    
   return (
-    <div>
+    
       <header className="max-w-2xl container mx-auto ">
         <div className="navbar xl:px-24">
           <div className="navbar-start">
@@ -56,25 +57,7 @@ const Navbar = () => {
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
-              <li>
-                <a>Item 1</a>
-              </li>
-              <li>
-                <details>
-                  <summary>Parent</summary>
-                  <ul className="p-2">
-                    <li>
-                      <a>Submenu 1</a>
-                    </li>
-                    <li>
-                      <a>Submenu 2</a>
-                    </li>
-                  </ul>
-                </details>
-              </li>
-              <li>
-                <a>Item 3</a>
-              </li>
+          {/* nav items */}
             </ul>
           </div>
           <div className="navbar-end">
@@ -82,7 +65,7 @@ const Navbar = () => {
           </div>
         </div>
       </header>
-    </div>
+    
   );
 };
 
