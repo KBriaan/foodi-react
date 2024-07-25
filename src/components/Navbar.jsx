@@ -22,6 +22,22 @@ const Navbar = () => {
           </ul>
         </details>
       </li>
+      <li tabIndex={0}>
+        <details>
+          <summary>Services</summary>
+          <ul className="p-2">
+            <li>
+              <a>All</a>
+            </li>
+            <li>
+              <a>Salad</a>
+            </li>
+            <li>
+              <a>Pizza</a>
+            </li>
+          </ul>
+        </details>
+      </li>
       <li>
         <a>Item 3</a>
       </li>
