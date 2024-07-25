@@ -5,17 +5,20 @@ const Navbar = () => {
   const navItems = (
     <>
       <li>
-        <a>Item 1</a>
+        <a href='/'>Home</a>
       </li>
-      <li>
+      <li tabIndex={0}>
         <details>
-          <summary>Parent</summary>
+          <summary>Menu</summary>
           <ul className="p-2">
             <li>
-              <a>Submenu 1</a>
+              <a>All</a>
             </li>
             <li>
-              <a>Submenu 2</a>
+              <a>Salad</a>
+            </li>
+            <li>
+              <a>Pizza</a>
             </li>
           </ul>
         </details>
