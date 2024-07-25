@@ -27,13 +27,13 @@ const Navbar = () => {
           <summary>Services</summary>
           <ul className="p-2">
             <li>
-              <a>All</a>
+              <a>Online Order</a>
             </li>
             <li>
-              <a>Salad</a>
+              <a>Table booking</a>
             </li>
             <li>
-              <a>Pizza</a>
+              <a>Order Tracking</a>
             </li>
           </ul>
         </details>
